@@ -2,7 +2,7 @@
 print("sedat taşkesenlioğlu")
 
 #Write a 1-line code that outputs your name and surname in two separate lines by using a single print() call.
-print("sedat \ taşkesenlioğlu")
+print("sedat \ntaşkesenlioğlu")
 
 #Use print() function that returns the following text. Notice the quotes in the text. Those quotes should be seen in the output!:
 print("I don", 't want to be an "artist". I want to be a "Data Scientist."',sep="'")
