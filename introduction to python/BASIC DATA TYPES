@@ -1,1 +1,38 @@
+#1
+
+capital=1000
+daily = 1.12
+period = 7
+week=1.2**7
+final = capital*(daily**period)
+result=print(final)
+
+#2
+apital = 1000
+final = 1210.68
+gain = "12\%"
+print("When we buy bitcoin with {} USD, we would earn {} USD at  average gain of {}.".format(capital,final,gain))
+
+#3
+F = input('Enter the temperature in Fahrenheit:') ###direkt inputu girerken inte çevrilemezmi?
+C = (5/9) * (int(F) - 32)
+print ("Temperature (C) :{}".format(C))
+
+4#
+
+a=input("sayı giriniz:")
+b=int(a[0])
+c=int(a[1])
+d=int(a[2])
+
+toplam=b+c+d
+print("The sum of digits in the number is {}".format(toplam))
+
+5#
+a=input("first side lenth :")
+b=input("first side lenth :")
+
+c=(int(a)**2+int(b)**2)**0.5
+print("The length of the hypotenuse is {}".format(c))   ###diğer idede neden "'str' object is not callable" hatası veriyor.
+
 
