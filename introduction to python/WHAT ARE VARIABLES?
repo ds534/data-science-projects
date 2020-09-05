@@ -1,1 +1,14 @@
 
+#1
+x=1
+y="1"
+x
+y
+type(x)
+type(y)
+
+
+#2
+y=int(y)
+type(y)
+
