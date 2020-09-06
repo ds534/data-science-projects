@@ -1,1 +1,63 @@
 #1
+F=input("F değerini giriniz:",)
+F=int(F)
+C = (5/9) * (F - 32)
+print(C,"C") ### rakamlar C arasındaki boşluğu nasıl gideririm?
+
+
+C=input("C değerini giriniz:",)
+C=int(C)
+F=C/(5/9)+32
+print(F,"F")
+
+#2
+year=input("year of service",)
+year=int(year)
+print(year)
+salary=input("your salary",)
+
+if year>5:
+  print("your bonus",salary*1.05)
+else:
+  print("you cant take bonus")
+
+###########################################################neden çalışmadı?
+
+#3
+yas1=input("yaşınızı giriniz",)
+yas1=int(yas1)
+
+yas2=input("yaşınızı giriniz",)
+yas2=int(yas2)
+
+yas3=input("yaşınızı giriniz",)
+yas3=int(yas3)
+
+yas=[yas1,yas2,yas3]
+yas.sort()
+print(yas)
+
+youngest=yas[0]
+oldest=yas[-1]
+
+print(youngest)
+print(oldest)
+
+
+#4
+held=input("Number of classes held",)
+held=int(held)
+attended=input("Number of classes attended",)
+attended=int(attended)
+
+if (attended/held)>0.75:
+  print("allowed")
+else:
+  print("bye")
+
+#5
+
+vowel=["a","e","i","o","u"]
+maybe="y"
+
+##################### vowel değişkeni a yı içeriyormu nasıl belirtilir? a ?? in vowel?
