@@ -1,1 +1,21 @@
+#1
+my_list = [34, 56, 76, 45, 2, 12, 67, 98, 37, 54, 66]
+
+print(my_list)
+my_list.sort()
+print(my_list) ###print(my_list.sort()) dediğimizde neden hata veriyor?
+sum(my_list[-2:])
+sum(my_list[0:2])
+
+#2
+names = ["David", "Michael", "John", "James", "Greg", "Mark", "William", "Richard", "Thomas", "Steven", "Mary", "Susan", "Maria", "Karen", "Lisa", "Linda", "Donna", "Patricia", "Debra", "Eric"]
+scores = [99, 87, 78, 86, 68, 94, 76, 97, 56, 98, 76, 87, 79, 90, 73, 93, 82, 69, 97, 98]
+ 
+print(scores[names.index("David")])
+
+#3
+scores.sort()
+print(scores.count(scores[-1]))
+
+#4
 
