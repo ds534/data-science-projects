@@ -56,8 +56,24 @@ else:
   print("bye")
 
 #5
+x=input("enter a letter",)
 
-vowel=["a","e","i","o","u"]
-maybe="y"
+if x=a:
+  print("vowel")
+elif x=e:
+  print("vowel")
+elif x=i:
+  print("vowel")
+elif x=o:
+  print("vowel")
+elif x=u:
+  print("vowel")
+elif x=y:
+  print("sometimes a vowel and sometimes a consonant")
+else x=a:
+  print("consonant")
+  
 
-##################### vowel değişkeni a yı içeriyormu nasıl belirtilir? a ?? in vowel?
+##################### neden çalışmadı??????????
+
+
