@@ -1,0 +1,21 @@
+#1
+import numpy as np
+housesize=(50,60,70,80,90,100,110,120,130,140)
+rooms=(1,1,2,2,3,3,3,3,3,4)
+price=(100000,110000,120000,130000,135000,140000,1450000,150000,155000,160000)
+house=np.array([np.array(housesize),np.array(rooms),np.array(price)])
+print(house)
+
+
+#2
+
+housenew=house.transpose()
+print(housenew)
+
+#3
+
+print(housenew.shape)
+# (10, 3)  # 10 satır ve 3 sütundan oluştuğunu gösteriyor. her değişten bir sütun olarak gösterildi.
+
+#4
+
