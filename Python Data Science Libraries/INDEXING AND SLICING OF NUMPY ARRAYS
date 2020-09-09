@@ -1,0 +1,25 @@
+#1
+#numpy de nasıl yaparız?
+
+#2
+#diğer maddeleri kendi hazırladığım liste üzerinden yaptım.
+import numpy as np
+earth = np.arange(400).reshape(20, 20)
+print(earth)
+newarray=earth[0:20,[3,5,6,7,12]]
+print(newarray)
+
+#3
+?
+
+#4
+import numpy as np
+earth = np.arange(400).reshape(20, 20)
+earth[0,]=1
+print(earth)
+
+#5
+import numpy as np
+earth = np.arange(400).reshape(20, 20)
+earth[0,]=1
+np.save("earth.npy", earth)
