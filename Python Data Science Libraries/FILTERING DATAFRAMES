@@ -1,0 +1,14 @@
+#1
+import numpy as np
+import pandas as pd
+df = pd.read_csv('/Users/ts/Desktop/DS/train.csv')
+survivalcount=df[(df["Survived"]==1)&(df["Age"]>30)]
+survivalrate = len(survivalcount)/len(df)
+print(survivalrate)
+
+
+#2
+
+survivalmalerate=df[(df["Survived"]==1)&(df["Sex"]=="male")]
+survivalmalerate=len(survivalmalerate)/len(df)
+print(survivalmalerate)
