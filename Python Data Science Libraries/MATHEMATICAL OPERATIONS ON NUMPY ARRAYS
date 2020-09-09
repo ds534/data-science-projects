@@ -1,0 +1,14 @@
+#1
+np.save("earth1.npy", earth)
+newearth = np.load("earth1.npy")
+print(newearth)
+
+#2
+print(earth.mean(axis=0))
+
+#3
+nası?
+
+#4
+earth2=earth*2
+print(earth2)
